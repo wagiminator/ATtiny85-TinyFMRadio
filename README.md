@@ -1,8 +1,8 @@
 # TinyFMRadio - FM Radio with RDS based on ATtiny45/85
 TinyFMRadio is an ATtiny45/85 controlled FM radio with RDS (RDA5807) with an integrated audio amplifier (XPT8871 or TC8871), an OLED display (SSD1306) and a rotary encoder. You can directly connect a protected li-ion battery, a 3W / 4Ω speaker and an FM antenna.
 
-Project Video (YouTube): https://youtu.be/dG5VVQmySEc
-Design Files (EasyEDA): https://easyeda.com/wagiminator/attiny85-tinyfmradio
+- Project Video (YouTube): https://youtu.be/dG5VVQmySEc
+- Design Files (EasyEDA): https://easyeda.com/wagiminator/attiny85-tinyfmradio
 
 ![pic1.jpg](https://raw.githubusercontent.com/wagiminator/ATtiny85-TinyFMRadio/master/documentation/TinyFMRadio_pic1.jpg)
 
