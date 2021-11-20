@@ -1,7 +1,7 @@
 // ===================================================================================
-// Project:   tinyFMradio - FM Tuner with RDS based on ATtiny85 and RDA5807
+// Project:   tinyFMradio - FM Tuner with RDS based on ATtiny45/85 and RDA5807
 // Version:   v1.0
-// Year:      2019 -2021
+// Year:      2019 - 2021
 // Author:    Stefan Wagner
 // Github:    https://github.com/wagiminator
 // EasyEDA:   https://easyeda.com/wagiminator
