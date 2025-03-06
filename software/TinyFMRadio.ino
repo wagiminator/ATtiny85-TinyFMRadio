@@ -356,7 +356,6 @@ uint16_t RDA_write_regs[6] = {                  // RDA registers for writing:
 #define RDA_rdsBlockErrors    ( RDA_read_regs[RDA_REG_B] & 0x000F )
 #define RDA_signalStrength    ((RDA_read_regs[RDA_REG_B] & 0xFE00 ) >> 8 )
 
-
 // RDA variables
 uint8_t RDA_stationName[9];                     // string for the station name
 uint8_t RDA_rdsStationName[8];                  // just for internal use
