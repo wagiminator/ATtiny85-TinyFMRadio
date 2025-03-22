@@ -286,7 +286,7 @@ void OLED_println(const char* p) {
   OLED_clearLine();
 }
 
-// OLED print 8-bit value as 2-digit decimal (BCD conversion by substraction method)
+// OLED print 8-bit value as 2-digit decimal (BCD conversion by subtraction method)
 void OLED_printVal(uint8_t value) {
   if(value > 99) value = 99;                    // limit 2-digit value
   I2C_start(OLED_ADDR);                         // start transmission to OLED
@@ -302,7 +302,7 @@ void OLED_printVal(uint8_t value) {
   I2C_stop();                                   // stop transmission
 }
 
-// OLED print frequency (BCD conversion by substraction method)
+// OLED print frequency (BCD conversion by subtraction method)
 void OLED_printFrequency(uint16_t value) {
   uint8_t leadflag = 0;                         // flag for leading spaces
   I2C_start(OLED_ADDR);                         // start transmission to OLED
@@ -354,7 +354,7 @@ uint16_t RDA_write_regs[6] = {                  // RDA registers for writing:
 #define RDA_isTunedToChannel  ( RDA_read_regs[RDA_REG_B] & 0x0100 )
 #define RDA_rdsBlockE         ( RDA_read_regs[RDA_REG_B] & 0x0010 )
 #define RDA_rdsBlockErrors    ( RDA_read_regs[RDA_REG_B] & 0x000F )
-#define RDA_signalStrength    ((RDA_read_regs[RDA_REG_B] & 0xFE00 ) >> 9 )
+#define RDA_signalStrength    ((RDA_read_regs[RDA_REG_B] & 0xFE00 ) >> 8 )
 
 // RDA variables
 uint8_t RDA_stationName[9];                     // string for the station name
